@@ -1,0 +1,118 @@
+body {
+	font-family: sans-serif;
+	background: #384047;
+}
+h1 {
+	color: #fff;
+	text-align: center
+}
+
+ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 780px;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+
+
+/** Start Coding Here **/
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+}
+
+#windowDiv{
+
+	padding:0 20% 0 20%;
+	height: 450px;
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+
+
+}
+
+#windowDiv img {
+
+  margin: 0 auto;
+  margin-top: 10%; 
+  width: 100%;
+
+}
+
+#closeButton, #nextButton, #prevButton{
+	color: white;
+	font-weight: bold;
+	border-style: none;
+
+
+}
+
+#closeButton {
+
+	height:45px;
+	width: 45px;
+	border-radius: 50% 50%;
+	background: tomato;
+	position: relative;
+	top: 45px;
+	left: 285px;
+
+}
+
+#caption{
+
+	color: white;
+
+}
+
+#prevButton, #nextButton{
+
+	background: limegreen;
+	width: 45%;
+	height: 45px;
+	display: inline-block;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+#prevButton {
+
+	float: left;
+	margin-left: 15px;
+}
+
+#nextButton {
+
+	float: right;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
